@@ -7,7 +7,7 @@
         [pscredential]$domainCred
     )
  
-    Import-DscResource -Module xActiveDirectory, xComputerManagement, xNetworking, psDesiredStateConfiguration, xPendingReboot
+    Import-DscResource -Module xActiveDirectory, xComputerManagement, xNetworking, xPendingReboot
  
     Node $AllNodes.NodeName {
 
