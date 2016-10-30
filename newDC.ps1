@@ -90,7 +90,7 @@ $secpasswd = ConvertTo-SecureString 'vagrant' -AsPlainText -Force
 $startCred = New-Object System.Management.Automation.PSCredential ('vagrant', $secpasswd)
 
 $secpasswd = ConvertTo-SecureString 'V@grant!2016' -AsPlainText -Force
-$domAdCred = New-Object System.Management.Automation.PSCredential ('administrator', $secpasswd)
+$domAdCred = New-Object System.Management.Automation.PSCredential ('notused', $secpasswd)
 
 
 BuildTest01 -ConfigurationData $ConfigData -safemodeCred $safeMCred -domaincred $domAdCred
