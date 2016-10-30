@@ -23,7 +23,7 @@
 
         xComputer SetName
         { 
-          Name = $Node.MachineName 
+            Name = $Node.MachineName 
         }
 
         xIPAddress SetIP
